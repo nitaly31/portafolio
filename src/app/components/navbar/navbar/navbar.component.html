@@ -27,7 +27,7 @@
       </ul>
       <a href="#" class="action_btn">Empecemos</a>
       <div class="toggle_btn" (click)="toggelMenu()">
-        <i class="fa-solid fa-bars"></i>
+        <i [ngClass]="{ 'fa-regular fa-circle-xmark': isMenuOpened, 'fa-solid fa-bars': !isMenuOpened }"></i>
       </div>
       <div class="dropdown_menu" *ngIf="isMenuOpened">
         <li><a href="hola" class="item-menu">Hola</a></li>
