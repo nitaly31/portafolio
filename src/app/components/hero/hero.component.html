@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Portafolio Geraldine Meneses</title>
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <i class="fa-solid fa-g"></i>
+      </div>
+      <ul class="links">
+        <li><a href="hola">Hola</a></li>
+        <li><a href="sobre">Sobre</a></li>
+        <li><a href="portafolio">Portafolio</a></li>
+        <li><a href="trabajo">Trabajo</a></li>
+        <li><a href="blog">Blog</a></li>
+        <li><a href="contacto">Contacto</a></li>
+      </ul>
+      <a href="#" class="action_btn">contáctame</a>
+      <div class="toggle_btn" (click)="toggelMenu()">
+        <i [ngClass]="{ 'fa-regular fa-circle-xmark': isMenuOpened, 'fa-solid fa-bars': !isMenuOpened }"></i>
+      </div>
+      <div class="dropdown_menu" *ngIf="isMenuOpened">
+        <li><a href="hola" class="item-menu">Hola</a></li>
+        <li><a href="sobre" class="item-menu">Sobre</a></li>
+        <li><a href="portafolio" class="item-menu">Portafolio</a></li>
+        <li><a href="trabajo" class="item-menu">Trabajo</a></li>
+        <li><a href="blog" class="item-menu">Blog</a></li>
+        <li><a href="contacto" class="item-menu">Contacto</a></li>
+        <li><a href="#" class="action_btn2">Empecemos</a></li>
+      </div>
+    </div>
+  </header>
+  <main class="hero">
+    <section class="main-width">
+      <div class="container">
+        <div class="hero-text">
+          <h3>¡Hola!</h3>
+          <h1>Yo soy <span class="tw"></span></h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, sed minus aperiam numquam asperiores sunt
+            fugit
+            aspernatur.</p>
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <button type="buttom">Más sobre mí</button>
+        </div>
+        <div class="bottom">
+          <p>© 2023 Geraldine Meneses - Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
