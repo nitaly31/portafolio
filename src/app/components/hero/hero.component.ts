@@ -28,8 +28,8 @@ export class HeroComponent implements OnInit{
   .strings(
     500,
     "Geraldine Meneses.",
-    "Web Developer.",
-    "Quality Assurance (QA)."
+    "Web Developer Jr.",
+    "Quality Assurance (QA) Jr."
   )
   .start()
 }
