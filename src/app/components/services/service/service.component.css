@@ -1,0 +1,47 @@
+#service {
+  padding: 70px 30px;
+  background-color: #0e0f0f;
+}
+
+#service .service-row {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+
+#service .service-row .service-box {
+  display: flex;
+  gap: 20px;
+}
+
+#service .service-row .service-box .icon i {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 2px solid #E78D09;
+font-size: 22px;
+line-height: 46px;
+background-color: #E78D09;
+color: #eee;
+transition: 0.7s;
+text-align: center;
+}
+
+#service .service-row .service-box:hover .icon i {
+  color: #E78D09;
+  background-color: #0e0f0f;
+}
+
+#service .service-row .service-box .serv-info h4 {
+  color: #eee;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#service .service-row .service-box .serv-info h4 + p {
+  color: #eee;
+  font-size: 14px;
+  font-weight: 500;
+
+}
