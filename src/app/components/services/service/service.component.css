@@ -43,5 +43,27 @@ text-align: center;
   color: #eee;
   font-size: 14px;
   font-weight: 500;
+}
 
+/* Responsive */
+@media (max-width: 700px) {
+  #service {
+    padding: 50px 10px;
+  }
+
+  #service .service-row {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  #service .service-row {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 15px;
+  }
 }
