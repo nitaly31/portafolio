@@ -1,0 +1,28 @@
+<header>
+  <div class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-g"></i>
+    </div>
+    <ul class="links">
+      <li><a href="hola" class="item-menu">Hola</a></li>
+      <li><a href="#about" class="item-menu">Sobre</a></li>
+      <li><a href="#portafolio" class="item-menu">Portafolio</a></li>
+      <li><a href="#service" class="item-menu">Servicios</a></li>
+      <li><a href="blog" class="item-menu">Blog</a></li>
+      <li><a href="#contacto" class="item-menu">Contacto</a></li>
+    </ul>
+    <a href="#" class="action_btn">contáctame</a>
+    <div class="toggle_btn" (click)="toggelMenu()">
+      <i [ngClass]="{ 'fa-regular fa-circle-xmark': isMenuOpened, 'fa-solid fa-bars': !isMenuOpened }"></i>
+    </div>
+    <div class="dropdown_menu" *ngIf="isMenuOpened">
+      <li><a href="hola" class="item-menu">Hola</a></li>
+      <li><a href="#about" class="item-menu">Sobre</a></li>
+      <li><a href="#portafolio" class="item-menu">Portafolio</a></li>
+      <li><a href="#service" class="item-menu">Servicios</a></li>
+      <li><a href="blog" class="item-menu">Blog</a></li>
+      <li><a href="contacto" class="item-menu">Contacto</a></li>
+      <li><a href="#contacto" class="action_btn2">Empecemos</a></li>
+    </div>
+  </div>
+</header>

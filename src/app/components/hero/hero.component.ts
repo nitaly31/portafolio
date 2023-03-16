@@ -9,13 +9,6 @@ import Typewriter from 't-writer.js';
 })
 export class HeroComponent implements OnInit{
 
-
-  isMenuOpened: boolean = false;
-
-  toggelMenu(): void {
-    this.isMenuOpened = !this.isMenuOpened;
-  }
-
   ngOnInit(): void {
     const target = document.querySelector('.tw');
     const writer = new Typewriter(target, {
