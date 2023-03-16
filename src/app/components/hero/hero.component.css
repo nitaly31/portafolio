@@ -103,18 +103,6 @@ span {
   transition: .4s;
 }
 
-.footer {
-  margin-top: 243px;
-  padding-bottom: 40px;
-  text-align: center;
-}
-
-.footer p {
-  color: #eee;
-  letter-spacing: 0.6px;
-  font-size: 15px;
-}
-
 /* Responsive Desing */
 @media (max-width: 576px) {
   .container .hero-text h1 {
