@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { PortafolioComponent } from './components/portafolio/portafolio/portafolio.component';
 import { ServiceComponent } from './components/services/service/service.component';
+import { ContactComponent } from './components/contact/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroComponent,
     PortafolioComponent,
-    ServiceComponent
+    ServiceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
