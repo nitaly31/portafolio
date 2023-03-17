@@ -19,6 +19,7 @@ header {
   width: 100%;
   padding: 0 2rem;
   background: #0e0f0f;
+  z-index: 99;
 }
 
 .logo i {
@@ -90,8 +91,7 @@ header {
   right: 2rem;
   top: 60px;
   width: 300px;
-  /* background-color: #0e0f0f; */
-  backdrop-filter: blur(15px);
+  background-color: #0e0f0f;
   border-radius: 10px;
   overflow: hidden;
   transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
