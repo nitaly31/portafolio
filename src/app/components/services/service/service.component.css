@@ -1,5 +1,5 @@
 #service {
-  padding: 70px 30px;
+  padding: 70px 60px;
   background-color: #0e0f0f;
 }
 
@@ -46,7 +46,7 @@ text-align: center;
 }
 
 /* Responsive */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #service {
     padding: 50px 10px;
   }
