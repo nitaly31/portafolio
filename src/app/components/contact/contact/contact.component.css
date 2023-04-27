@@ -1,6 +1,6 @@
 #contact {
   background-color: #000;
-  padding: 70px 30px;
+  padding: 70px 60px;
 }
 
 #contact .contact-row {
@@ -103,7 +103,7 @@ border: 2px solid #E78D09;
 
 @media (max-width: 800px) {
   #contact {
-    padding: 50px;
+    padding: 50px 10px;
   }
 
   #contact .contact-row {
@@ -112,9 +112,3 @@ border: 2px solid #E78D09;
   }
 }
 
-@media (max-width: 500px) {
-  #contact {
-    padding: 50px 10px;
-  }
-
-}
